@@ -1,0 +1,9 @@
+// AppConfig.js
+export const API_BASE_URL = __DEV__ ? 'http://10.0.2.2:3001/api' : 'https://yourdomain.com/api';
+export const AI_SERVICE_URL = __DEV__ ? 'http://localhost:8000' : 'https://ai.yourdomain.com';
+export const PAYHERE_CONFIG = {
+  sandbox: true,
+  merchant_id: '1211149',
+  return_url: 'ecommerceapp://payment-return',
+  cancel_url: 'ecommerceapp://payment-cancel',
+};
